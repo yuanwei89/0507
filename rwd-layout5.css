@@ -103,4 +103,39 @@ img {
     .list {
         grid-template-columns: 1fr;
     }
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.hamburger div {
+    width: 100%;
+    height: 4px;
+    background: #222344;
+    margin: 5px 0;
+    border-radius: 2px;
+}
+
+.dropdown {
+    background: #eee;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: left;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 }    
